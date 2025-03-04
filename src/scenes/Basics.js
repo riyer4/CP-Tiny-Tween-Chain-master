@@ -60,20 +60,23 @@ class Basics extends Phaser.Scene {
             tweens: [
                 {
                     x: w - 64,
-                    duration: 500
+                    duration: 500,
+                    angle: 90
                 },
                 {
                     y: h - 64,
                     duration: 1000,
-                    ease: 'Sine.easeOut'
+                    angle: 180
                 },
                 {
                     x: 64,
-                    duration: 1500
+                    duration: 1500,
+                    angle: 270
                 },
                 {
                     y: 64,
-                    duration: 1000
+                    duration: 1000,
+                    angle: 0
                 }
             ]
         })
