@@ -76,7 +76,7 @@ class Basics extends Phaser.Scene {
                 {
                     y: 64,
                     duration: 1000,
-                    angle: 0
+                    angle: 360
                 }
             ]
         })
